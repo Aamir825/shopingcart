@@ -11,7 +11,7 @@ let fullImage = document.getElementById("top-img");
 let allImages = document.querySelectorAll(".below-gallery div img");
 allImages.forEach((elem)=>{
     elem.addEventListener('click', (img)=>{
-        console.log(img.target.src)
+        // console.log(img.target.src)
         let finalImg = img.target.src;
         fullImage.src = finalImg;
 
@@ -54,7 +54,7 @@ let total = document.getElementById("total");
 let cartempty = document.getElementById("cart-empty");
 let cartinfo = document.getElementById("cart-info");
 cartBtn.addEventListener('click', ()=>{
-    alert(`the counter value is ${counter}`)
+    // alert(`the counter value is ${counter}`)
     let img = fullImage.src;
     // console.log(img);
     cartImg.src = img;
